@@ -4,15 +4,15 @@ This guide explains how to set up and configure website analytics for tracking s
 
 ## Table of Contents
 
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [1. Tracking Scroll Depth Percentage](#1-tracking-scroll-depth-percentage)
-- [2. Tracking New Session Percentage](#2-tracking-new-session-percentage)
-- [3. Tracking Like Count Percentage](#3-tracking-like-count-percentage)
-- [Displaying Analytics Data](#displaying-analytics-data)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+- [Prerequisites]
+- [Getting Started]
+- [1. Tracking Scroll Depth Percentage]
+- [2. Tracking New Session Percentage]
+- [3. Tracking Like Count Percentage]
+- [Displaying Analytics Data]
+- [Contributing]
+- [License]
+- [Acknowledgments]
 
 ## Prerequisites
 

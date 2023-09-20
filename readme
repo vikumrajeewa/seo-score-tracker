@@ -1,1 +1,79 @@
-hi
+# Website Analytics Setup Guide
+
+This guide explains how to set up and configure website analytics for tracking scroll depth percentage, new session percentage, and like count percentage on your WordPress website.
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [1. Tracking Scroll Depth Percentage](#1-tracking-scroll-depth-percentage)
+- [2. Tracking New Session Percentage](#2-tracking-new-session-percentage)
+- [3. Tracking Like Count Percentage](#3-tracking-like-count-percentage)
+- [Displaying Analytics Data](#displaying-analytics-data)
+- [Contributing](#contributing)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
+## Prerequisites
+
+Before you begin, ensure you have the following:
+
+- A WordPress website hosted online.
+- A Google Analytics account with the tracking code.
+
+## Getting Started
+
+1. Clone or download this repository to your local machine.
+2. Follow the steps in this guide to set up and configure analytics tracking on your WordPress website.
+
+## 1. Tracking Scroll Depth Percentage
+
+To track scroll depth percentage using Google Analytics:
+
+1. Open the `functions.js` file in your theme's JavaScript directory (`wp-content/themes/your-theme/js/functions.js`).
+
+2. Add the provided JavaScript code for tracking scroll depth in `functions.js`.
+
+3. Ensure that you've included the Google Analytics tracking code in the `<head>` section of your theme's `header.php` file.
+
+4. Save your changes and upload the modified `functions.js` file to your WordPress theme directory.
+
+5. Verify that scroll depth events are being recorded in your Google Analytics account.
+
+## 2. Tracking New Session Percentage
+
+To track new session percentage using Google Analytics:
+
+1. Ensure that you have Google Analytics set up and correctly integrated with your website.
+
+2. In your Google Analytics account, navigate to "Audience" > "Overview" to view the new session percentage.
+
+## 3. Tracking Like Count Percentage
+
+To track like count percentage:
+
+1. Create a mechanism for users to like or interact positively with your content.
+
+2. Implement custom code or use a plugin to calculate the like count percentage for each post.
+
+3. Store the like count percentage as a custom field for each post in WordPress.
+
+4. Modify your `single.php` file to display the like count percentage using the `get_post_meta()` function.
+
+## Displaying Analytics Data
+
+- Open your `single.php` file and include code blocks to display the scroll depth percentage, new session percentage, and like count percentage as described in the README.
+
+- Customize the appearance and location of these percentages to suit your website's design.
+
+## Contributing
+
+
+
+## License
+
+
+
+## Acknowledgments
+
+- Mention any individuals, projects, or resources that inspired or contributed to this setup guide.

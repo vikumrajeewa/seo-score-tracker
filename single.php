@@ -10,3 +10,6 @@
   New Session Percentage: <?php echo get_post_meta(get_the_ID(), 'new_session_percentage', true); ?>%
 </div>
 
+<div class="like-count-percentage">
+  Like Count Percentage: <?php echo get_post_meta(get_the_ID(), 'like_count_percentage', true); ?>%
+</div>
